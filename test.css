@@ -1,0 +1,108 @@
+
+.topdiv{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left:  0;
+    right:  0;
+    top: 0;
+    height: 70px;
+    background-color: rgb(255, 135, 37);
+}
+a{
+    text-decoration: none;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.normaldiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+.element{
+    
+    position: relative;
+    flex: 1;
+}
+/* Estilos para el header*/
+.logo{
+    height: 40px;
+    
+    margin-left: 70px;
+}
+/* Estilos para los servicios header*/
+.interact{
+    
+    margin: 30px;
+    font-family: sans-serif;
+    text-decoration: none; 
+    color: inherit;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
+.interact:hover{
+    
+    color: inherit;
+    color: rgb(0, 0, 0);
+
+}
+.element:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+    transition: 0.8s;
+    
+    flex: 1;
+}
+/* boton*/
+.boton{
+    color: white;
+    width: 130px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(246, 133, 20);
+    background-color: rgb(246, 133, 20);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(246, 133, 20);
+    transition: 0.5s;
+}
+.indiv{
+    padding-left: 500px;
+}
+
+.contenedor-overlay {
+    background-color: black;
+    overflow: hidden;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 400px;
+    display: block;
+    opacity: 0.4;
+    object-fit: cover; 
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    pointer-events: none; 
+    z-index: 10;
+}
